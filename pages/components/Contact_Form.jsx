@@ -28,21 +28,21 @@ const Contact_Form = () => {
       data-aos-delay='500' id="contact-form" role="form" ref={form} onSubmit={sendEmail}>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="mb-4">
-          <label for="form_companyName" className="flex text-2xl text-gray-500">会社名 *</label>
+          <label htmlFor="form_companyName" className="flex text-2xl text-gray-500">会社名 *</label>
           <input id="form_companyName" type="text" name="companyName" className="focus:outline-none w-[90%] pt-2 border-b-2 border-green-200" placeholder="株式会社 長町研磨" required="required" data-error="Firstname is required." />  
         </div>
         <div className="mb-4">
-          <label for="form_name" className="flex text-2xl text-gray-500">お名前 *</label>
+          <label htmlFor="form_name" className="flex text-2xl text-gray-500">お名前 *</label>
           <input id="form_name" type="text" name="name" className="focus:outline-none w-[90%] pt-2 border-b-2 border-green-200" placeholder="長町 太郎" required="required" data-error="Firstname is required." />  
         </div>
         <div className="mb-4">
-          <label for="form_email" className="flex text-2xl text-gray-500">メールアドレス *</label>
-          <input id="form_email" type="email" name="email" class="focus:outline-none w-[90%] pt-2 border-b-2 border-green-200" placeholder="example@gmail.com" required="required" data-error="Valid email is required." />    
+          <label htmlFor="form_email" className="flex text-2xl text-gray-500">メールアドレス *</label>
+          <input id="form_email" type="email" name="email" className="focus:outline-none w-[90%] pt-2 border-b-2 border-green-200" placeholder="example@gmail.com" required="required" data-error="Valid email is required." />    
         </div>
           <div className="form-group pb-3">
-            <label for="form_need" className="flex text-2xl text-gray-500">お問い合わせの種類 *</label>
-            <select id="form_need" name="need" class="focus:outline-none pt-2 border-b-2 border-green-200" required="required" data-error="Please specify your need.">
-              <option value="" selected disabled>選択してください</option>
+            <label htmlFor="form_need" className="flex text-2xl text-gray-500">お問い合わせの種類 *</label>
+            <select id="form_need" name="need" className="focus:outline-none pt-2 border-b-2 border-green-200" required="required" data-error="Please specify your need.">
+              <option selected disabled>選択してください</option>
               <option >スリッター刃について</option>
               <option >粉砕刃について</option>
               <option >断裁刃について</option>
@@ -51,8 +51,8 @@ const Contact_Form = () => {
           </div>
         </div>
           <div className="grid grid-cols-1">
-            <div className="">
-              <label for="form_message" className="text-2xl text-gray-500">お問い合わせ内容 *</label>
+            <div>
+              <label htmlFor="form_message" className="text-2xl text-gray-500">お問い合わせ内容 *</label>
               <textarea
                 id="form_message" 
                 name="message" 

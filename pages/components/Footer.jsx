@@ -1,5 +1,5 @@
 import styles from '@/styles/Footer.module.css'
-import Link from 'next/Link';
+import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '../../public/naga_ken_logo.png';
 import { AiOutlineInstagram } from 'react-icons/ai'
@@ -20,7 +20,7 @@ export default function Header() {
           <Link href='/' className={styles.twitter}><AiOutlineTwitter /></Link>
           <Link href='/' className=''><AiFillGithub /></Link>
         </div>
-     <div className=''>
+     <div>
      <p className='text-center'>&copy;1955 -{new Date().getFullYear()}  株式会社 長町研磨</p>
      </div>
      

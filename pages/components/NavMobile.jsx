@@ -1,4 +1,4 @@
-import Link from 'next/Link';
+import Link from 'next/link'
 import { IoClose } from 'react-icons/io5';
 import { useRouter } from 'next/router';
 import { Link as Scroll } from 'react-scroll';

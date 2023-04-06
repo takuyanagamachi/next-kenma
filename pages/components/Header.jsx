@@ -1,4 +1,4 @@
-import Link from 'next/Link';
+import Link from 'next/link'
 import Logo from '../../public/naga_ken_logo.jpeg';
 import Image from 'next/image'
 import {BiMenuAltRight} from 'react-icons/bi'

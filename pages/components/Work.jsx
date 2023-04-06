@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Title from './Title';
 import Image from 'next/image';
 import HeroImg from '../../public/images/hero.png'

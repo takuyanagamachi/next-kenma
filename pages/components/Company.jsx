@@ -14,7 +14,7 @@ export default function Company() {
           <div data-aos="zoom-in" data-aos-offset='300'
         data-aos-delay='500' className={styles.map}>
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d474.12657566169065!2d133.93309676815673!3d34.6296626899694!3m2!1i1024!2i768!4f60!3m3!1m2!1s0x35540711802c1117%3A0xd6adf5bdadfd0aa!2zKOagqinplbfnlLrnoJTno6g!5e0!3m2!1sja!2sjp!4v1679400625358!5m2!1sja!2sjp"
-           className={styles.iframe} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           className={styles.iframe} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
