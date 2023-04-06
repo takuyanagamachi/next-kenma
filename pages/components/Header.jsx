@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Logo from '../../public/naga_ken_logo.jpeg';
 import Image from 'next/image'
 import {BiMenuAltRight} from 'react-icons/bi'
-import Nav from './nav';
+import Nav from './Nav';
 
 export default function Header({ setNavMobile }) {
   return (
