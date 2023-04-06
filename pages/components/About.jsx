@@ -9,7 +9,7 @@ export default function About() {
       <div className='p-8 bg-white'>
         <Title subTitle="About us" />
       <div className='grid md:grid-cols-2 gap-3 bg-white'>
-      <Image src={Item1} className='rounded' data-aos='fade-right' />
+      <Image src={Item1} alt='長町研磨について' className='rounded' data-aos='fade-right' />
       <div className='w-[75%] md:w-[85%] mx-auto my-auto md:text-left' data-aos='fade-left'>
         <h1 className='text-emerald-600 font-bold md:text-[35px] text-[29px]'>長町研磨について</h1>
         <p className='text-gray-500 md:p-3 mx-auto my-auto text-xl leading-8'>

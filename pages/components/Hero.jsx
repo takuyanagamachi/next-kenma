@@ -5,7 +5,7 @@ import HeroImg from '../../public/images/hero.png'
 export default function Hero() {
   return (
       <div className="relative w-full items-center flex justify-center mt-[-80px]">
-        <Image src={HeroImg} className='w-full' />
+        <Image src={HeroImg} alt='長町研磨のメイン動画' className='w-full' />
         <div className="absolute">
           <h1 className=" text-4xl text-white font-bold">Go next Stage</h1>
           <div className="mt-1 border-b-2"></div>

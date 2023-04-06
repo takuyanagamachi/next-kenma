@@ -14,12 +14,12 @@ export default function Work() {
     <div className='grid md:grid-cols-2 text-center gap-3'>
         <h2 data-aos="zoom-in" className='w-[90%] md:w-[90%] text-emerald-600 font-bold text-[35px] mx-auto'>
           研削・機械販売事業
-          <Image src={HeroImg} className='rounded' />
+          <Image src={HeroImg} alt='刃物研削事業' className='rounded' />
         </h2>
         <h2 data-aos="zoom-in" data-aos-offset='300'
         data-aos-delay='500' className='w-[90%] md:w-[90%] text-emerald-600 font-bold text-[35px] mx-auto'>
           テクノロジー事業
-          <Image src={Item3} className='rounded' />
+          <Image src={Item3} alt='テクノロジー事業' className='rounded' />
         </h2>
       </div>
   </section>
