@@ -122,6 +122,11 @@
         title: 'SKH',
         image: '/images/funsai/funsai12.jpg'
       },
+      { 
+        id: 12,
+        title: 'SKH',
+        image: '/images/funsai/funsai13.jpg'
+      },
         ];
 
     export const dansais = [
