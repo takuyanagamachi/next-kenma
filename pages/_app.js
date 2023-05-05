@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 export default function App({ Component, pageProps }) {
   useEffect(()=> {
     Aos.init({
-      duration: 2000,
+      duration: 1700,
       delay: 400,
     });
   });
