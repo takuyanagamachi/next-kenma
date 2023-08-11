@@ -26,7 +26,7 @@ export default function News() {
             </div>
           ))}
 
-          <div className='grid grid-cols border-b'>
+          {/* <div className='grid grid-cols border-b'>
             <h2 className='text-gray-600 text-lg font-bold'>GW期間中の営業について</h2>
             <p className='pl-1 text-gray-500 text-lg'>お休み期間「5月5日～7日」</p>
             <p className='text-gray-500 text-sm ml-auto'>掲載日：2023/4/1</p>
@@ -36,7 +36,7 @@ export default function News() {
             <h2 className='text-gray-600 text-lg font-bold'>営業時間の変更について</h2>
             <p className='pl-1 text-gray-500 text-lg'>8:30～17:00　「2023年4月開始」</p>
             <p className='text-gray-500 text-sm ml-auto'>掲載日：2023/3/1</p>
-          </div>
+          </div> */}
 
         </div>
       </div>

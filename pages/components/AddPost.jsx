@@ -6,15 +6,15 @@ export default function AddPost() {
   const router = useRouter();
   const [title, setTitle] = useState('');
   const [desc, setDesc] = useState('');
-  const [goToProperties, setGoToProperties] = useState(false);
+  const [goToHome, setGoToHome] = useState(false);
 
   async function handlePost(e) {
     e.preventDefault();
     const data = { title, desc };
     await axios.post('/api/post', data);
-    setGoToProperties(true);
+    setGoToHome(true);
   }
-  if (goToProperties) {
+  if (goToHome) {
     router.push('/')
   }
 
