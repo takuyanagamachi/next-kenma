@@ -9,5 +9,4 @@ const connectDB = () => {
     .then(() => console.log('Mongodb connected'))
     .catch(error => console.log(error))
 }
-
 export default connectDB;

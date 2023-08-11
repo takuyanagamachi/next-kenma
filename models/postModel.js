@@ -1,6 +1,6 @@
 import { Schema, model, models } from 'mongoose'
 
-const postSchema = new Schema({
+const PostSchema = new Schema({
   title: {
     type: String,
     required: true
@@ -9,11 +9,6 @@ const postSchema = new Schema({
     type: String,
     required: true
   },
-  // image: {
-  //   type: String,
-  //   required: true
-  // }
 }, { timestamps: true })
 
-const Post = models.post || model('post', postSchema)
-export default Post;
+export const Post = models.Post || model('Post', PostSchema);

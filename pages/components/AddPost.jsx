@@ -11,7 +11,7 @@ export default function AddPost() {
   async function handlePost(e) {
     e.preventDefault();
     const data = { title, desc };
-    await axios.post('/api/properties', data);
+    await axios.post('/api/post', data);
     setGoToProperties(true);
   }
   if (goToProperties) {
