@@ -17,7 +17,7 @@ export default function News() {
       <div className='p-8 bg-white'>
         <Title subTitle="News" />
 
-        <div className='grid grid-cols-1 gap-8 bg-white max-w-[1100px]'>
+        <div className='grid grid-cols-1 gap-8 mx-auto bg-white max-w-[1100px]'>
           {posts.map(post => (
             <div key={post._id} className='grid grid-cols border-b'>
               <h2 className='text-gray-600 text-lg font-bold'>{post.title}</h2>
