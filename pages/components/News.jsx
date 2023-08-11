@@ -1,6 +1,5 @@
 import React from 'react'
 import Title from './Title'
-import Image from 'next/image'
 
 export default function News() {
   return (
@@ -27,8 +26,6 @@ export default function News() {
             <p className='pl-1 text-gray-500 text-lg'>8:30～17:00　「2023年4月開始」</p>
             <p className='text-gray-500 text-sm ml-auto'>掲載日：2023/3/1</p>
           </div>
-
-
 
         </div>
       </div>
