@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import { useRouter } from "next/router";
 import axios from "axios";
+import Quill from './Quill';
+
+
+
 
 export default function AddPost() {
   const router = useRouter();
@@ -29,13 +33,7 @@ export default function AddPost() {
         onChange={e => setTitle(e.target.value)}
       />
       <label>内容</label>
-      <textarea
-        required
-        type="text"
-        placeholder='内容'
-        value={desc}
-        onChange={e => setDesc(e.target.value)}
-      />
+      <Quill setDesc={setDesc} desc={desc} />
 
       {/* {
         editPost
