@@ -14,16 +14,23 @@ export default async function handle(req, res) {
   }
 
   // 全ての物件と特定の物件を取得
+  // if (method === 'GET') {
+  //   res.json(await Post.find({}, {}, { sort: { '_id': -1 }, limit: 3 }));
+  // }
   if (method === 'GET') {
-    res.json(await Post.find({}, {}, { sort: { '_id': -1 }, limit: 3 }));
+    if (req.query?.id) {
+      res.json(await Post.findOne({ _id: req.query.id }))
+    } else {
+      res.json(await Post.find({}, {}, { sort: { '_id': -1 }, limit: 3 }));
+    }
   }
 
   // 物件の編集
-  // if (method === 'PUT') {
-  //   const { title, desc } = req.body;
-  //   await Post.updateOne({ _id }, { title, desc });
-  //   res.json(true);
-  // }
+  if (method === 'PUT') {
+    const { _id, title, desc } = req.body;
+    await Post.updateOne({ _id }, { title, desc });
+    res.json(true);
+  }
 
   // 物件の削除
   if (method === 'DELETE') {
