@@ -39,7 +39,7 @@ export default function Index() {
               <div className='pl-1 text-gray-500 text-lg' dangerouslySetInnerHTML={{ __html: post.desc }} />
               <p className='text-gray-500 text-sm ml-auto'>掲載日：{format(new Date(post.updatedAt), 'yyyy年M月dd日')}</p>
               <div className='ml-auto'>
-                <Link href={`/admin/edit/${post._id}`} className='mx-2 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-1 px-3 border border-blue-500 hover:border-transparent rounded' href={`/admin/edit/${post._id}`}>編集</Link>
+                <Link href={`/admin/edit/${post._id}`} className='mx-2 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-1 px-3 border border-blue-500 hover:border-transparent rounded'>編集</Link>
                 <button className='bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-1 px-3 border border-red-500 hover:border-transparent rounded' type='button' onClick={() => handleDelete(post._id)}>削除</button>
               </div>
             </div>
