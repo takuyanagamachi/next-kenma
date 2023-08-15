@@ -25,12 +25,8 @@ export default function News() {
               <p className='text-gray-500 text-sm ml-auto'>掲載日：{format(new Date(post.updatedAt), 'yyyy年M月dd日')}</p>
             </div>
           ))}
-
-
-
         </div>
       </div>
-
 
     </section>
   )
