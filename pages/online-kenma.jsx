@@ -155,7 +155,7 @@ export default function Online() {
               <tbody>
                 <tr className="bg-white border-b hover:bg-gray-50">
                   <th scope="row" className="px-6 py-4 whitespace-nowrap">
-                    ~50Φ
+                    ~49Φ
                   </th>
                   <td className="px-6 py-4">
                     350円~
@@ -170,7 +170,7 @@ export default function Online() {
 
                 <tr className="bg-white border-b hover:bg-gray-50">
                   <th scope="row" className="px-6 py-4 whitespace-nowrap">
-                    51Φ~100Φ
+                    50Φ~
                   </th>
                   <td className="px-6 py-4">
                     600円~
@@ -185,7 +185,7 @@ export default function Online() {
 
                 <tr class="bg-white border-b hover:bg-gray-50">
                   <th scope="row" class="px-6 py-4 whitespace-nowrap">
-                    101Φ~150Φ
+                    100Φ~
                   </th>
                   <td class="px-6 py-4">
                     1000円~
@@ -194,13 +194,13 @@ export default function Online() {
                     1600円~
                   </td>
                   <td class="px-6 py-4">
-                    6枚~
+                    5枚~
                   </td>
                 </tr>
 
                 <tr class="bg-white border-b hover:bg-gray-50">
                   <th scope="row" class="px-6 py-4 whitespace-nowrap">
-                    151Φ~200Φ
+                    150Φ~
                   </th>
                   <td class="px-6 py-4">
                     1400円~
@@ -209,12 +209,12 @@ export default function Online() {
                     2300円~
                   </td>
                   <td class="px-6 py-4">
-                    5枚~
+                    4枚~
                   </td>
                 </tr>
                 <tr class="bg-white border-b hover:bg-gray-50">
                   <th scope="row" class="px-6 py-4 whitespace-nowrap">
-                    201Φ~250Φ
+                    200Φ~
                   </th>
                   <td class="px-6 py-4">
                     1900円~
@@ -223,12 +223,12 @@ export default function Online() {
                     2900円~
                   </td>
                   <td class="px-6 py-4">
-                    5枚~
+                    4枚~
                   </td>
                 </tr>
                 <tr class="bg-white border-b hover:bg-gray-50">
                   <th scope="row" class="px-6 py-4 whitespace-nowrap">
-                    251Φ~300Φ
+                    250Φ~
                   </th>
                   <td class="px-6 py-4">
                     2500円~
@@ -237,7 +237,7 @@ export default function Online() {
                     3800円~
                   </td>
                   <td class="px-6 py-4">
-                    5枚~
+                    3枚~
                   </td>
                 </tr>
               </tbody>
@@ -275,7 +275,7 @@ export default function Online() {
               <tbody>
                 <tr className="bg-white border-b hover:bg-gray-50">
                   <th scope="row" className="px-6 py-4 whitespace-nowrap">
-                    ~100㎜
+                    ~99㎜
                   </th>
                   <td className="px-6 py-4">
                     600円~
@@ -289,7 +289,7 @@ export default function Online() {
                 </tr>
                 <tr className="bg-white border-b hover:bg-gray-50">
                   <th scope="row" className="px-6 py-4 whitespace-nowrap">
-                    101㎜~200㎜
+                    100㎜~
                   </th>
                   <td className="px-6 py-4">
                     1000円~
@@ -303,7 +303,7 @@ export default function Online() {
                 </tr>
                 <tr className="bg-white border-b hover:bg-gray-50">
                   <th scope="row" className="px-6 py-4 whitespace-nowrap">
-                    201㎜~300㎜
+                    200㎜~
                   </th>
                   <td className="px-6 py-4">
                     1500円~
@@ -317,7 +317,7 @@ export default function Online() {
                 </tr>
                 <tr className="bg-white border-b hover:bg-gray-50">
                   <th scope="row" className="px-6 py-4 whitespace-nowrap">
-                    301㎜~400㎜
+                    300㎜~
                   </th>
                   <td className="px-6 py-4">
                     2500円~
@@ -331,7 +331,7 @@ export default function Online() {
                 </tr>
                 <tr className="bg-white border-b hover:bg-gray-50">
                   <th scope="row" className="px-6 py-4 whitespace-nowrap">
-                    401㎜~500㎜
+                    400㎜~
                   </th>
                   <td className="px-6 py-4">
                     3500円~
@@ -345,7 +345,7 @@ export default function Online() {
                 </tr>
                 <tr className="bg-white border-b hover:bg-gray-50">
                   <th scope="row" className="px-6 py-4 whitespace-nowrap">
-                    501㎜~600㎜
+                    500㎜~
                   </th>
                   <td className="px-6 py-4">
                     4500円~
@@ -369,17 +369,3 @@ export default function Online() {
     </Layout>
   )
 }
-
-// 西尾総合印刷 ミシン刃研磨 220
-// 　　　スリッター上刃研磨  250
-
-// チッパー上下刃両刃ハイス研磨184  2,700
-
-// チッパーナイフハイス研磨200 1,500
-
-// チッパーナイフ超硬研磨300  3,000
-// チッパーナイフ超硬研磨300  3,500
-
-// チッパーナイフ超硬研磨370  3,000
-// チッパーナイフハイス研磨370  2,500
-// チッパーナイフ超硬研磨370 4,000

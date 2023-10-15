@@ -127,6 +127,11 @@ export const funsais = [
     title: 'SKH',
     image: '/images/funsai/funsai13.jpg'
   },
+  {
+    id: 13,
+    title: 'SKH',
+    image: '/images/funsai/funsai14.jpg'
+  },
 ];
 
 export const dansais = [
