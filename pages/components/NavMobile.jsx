@@ -29,10 +29,10 @@ export default function Nav({ setNavMobile }) {
             <Scroll to="contact" smooth={true} offset={-50}>
               <li className='text-white cursor-pointer'>お問い合わせ</li>
             </Scroll>
-            <Link href='/online-kenma'
+            {/* <Link href='/online-kenma'
               className='text-white rounded border-2 px-2 hover:border-green-500 border-white'>
               オンライン研磨「価格表」
-            </Link>
+            </Link> */}
             <Link href='/kenma' className='text-white rounded border-2 px-2 hover:border-green-500 border-white'>
               研磨一覧
             </Link>
@@ -53,10 +53,10 @@ export default function Nav({ setNavMobile }) {
             <Scroll to="other" smooth={true} offset={-50}>
               <li className='text-white cursor-pointer'>その他刃物</li>
             </Scroll>
-            <Link href='/online-kenma'
+            {/* <Link href='/online-kenma'
               className='text-white rounded border-2 px-2 hover:border-green-500 border-white'>
               オンライン研磨「価格表」
-            </Link>
+            </Link> */}
             <Link href='/' className='text-white rounded border-2 px-2 hover:border-green-500 border-white'>長町研磨について</Link>
           </>
           ) : (<></>)}

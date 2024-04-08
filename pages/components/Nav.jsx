@@ -32,10 +32,10 @@ export default function Nav() {
                 お問い合わせ
               </li>
             </Scroll>
-            <Link href='/online-kenma'
+            {/* <Link href='/online-kenma'
               className='mr-5 text-white hover:text-green-300 duration-300 rounded border-2 px-2 hover:border-green-500 border-white'>
               オンライン研磨「価格表」
-            </Link>
+            </Link> */}
             <Link href='/kenma'
               className='mr-5 text-white hover:text-green-300 duration-300 rounded border-2 px-2 hover:border-green-500 border-white'>
               研磨一覧
@@ -67,10 +67,10 @@ export default function Nav() {
                 その他刃物
               </li>
             </Scroll>
-            <Link href='/online-kenma'
+            {/* <Link href='/online-kenma'
               className='mr-5 text-white hover:text-green-300 duration-300 rounded border-2 px-2 hover:border-green-500 border-white'>
               オンライン研磨「価格表」
-            </Link>
+            </Link> */}
           </>) : (
             <></>
           )
