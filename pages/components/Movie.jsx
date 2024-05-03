@@ -7,7 +7,7 @@ import { TikTokEmbed, YouTubeEmbed } from 'react-social-media-embed';
 export default function Movie() {
   return (
     <section id='movie' className='my-7 p-6'>
-      <div className='p-8 bg-white'>
+      <div className='py-2 bg-white'>
         <Title subTitle="Movie" />
         <h1 data-aos='fade-down' className='text-emerald-600 text-center font-bold text-[35px] mb-5'>動画</h1>
 

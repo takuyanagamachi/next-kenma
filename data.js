@@ -15,6 +15,10 @@ export const movie = [
     id: 3,
     url: 'https://www.tiktok.com/@nagamachi_kenma/video/7363141484192746759?is_from_webapp=1&sender_device=pc&web_id=7357860281962497537'
   },
+  {
+    id: 4,
+    url: 'https://www.tiktok.com/@nagamachi_kenma/video/7364721712748973319?is_from_webapp=1&sender_device=pc&web_id=7357860281962497537'
+  },
   // {
   //   id: 1,
   //   title: "内径35φ/片刃/両刃",
