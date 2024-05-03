@@ -22,6 +22,11 @@ export default function Nav() {
                 事業内容
               </li>
             </Scroll>
+            <Scroll to="movie" smooth={true} offset={-50}>
+              <li className='mr-5 text-white hover:text-green-300 duration-300 cursor-pointer'>
+                動画
+              </li>
+            </Scroll>
             <Scroll to="company" smooth={true} offset={-50}>
               <li className='mr-5 text-white hover:text-green-300 duration-300 cursor-pointer'>
                 会社概要

@@ -1,3 +1,41 @@
+export const movie = [
+  {
+    id: 0,
+    url: 'https://www.tiktok.com/@nagamachi_kenma/video/7361362399158373639?is_from_webapp=1&sender_device=pc&web_id=7357860281962497537'
+  },
+  {
+    id: 1,
+    url: 'https://www.tiktok.com/@nagamachi_kenma/video/7362383652606594311?is_from_webapp=1&sender_device=pc&web_id=7357860281962497537'
+  },
+  {
+    id: 2,
+    url: 'https://www.tiktok.com/@nagamachi_kenma/video/7363140116723797256?is_from_webapp=1&sender_device=pc&web_id=7357860281962497537'
+  },
+  {
+    id: 3,
+    url: 'https://www.tiktok.com/@nagamachi_kenma/video/7363141484192746759?is_from_webapp=1&sender_device=pc&web_id=7357860281962497537'
+  },
+  // {
+  //   id: 1,
+  //   title: "内径35φ/片刃/両刃",
+  //   image: '/images/slitter/slitter2.jpg'
+  // },
+  // {
+  //   id: 2,
+  //   title: "内径38φ",
+  //   image: '/images/slitter/slitter3.jpg'
+  // },
+  // {
+  //   id: 3,
+  //   title: "内径38φ",
+  //   image: '/images/slitter/slitter4.jpg'
+  // },
+  // {
+  //   id: 4,
+  //   title: "内径42φ/片刃/両刃",
+  //   image: '/images/slitter/slitter5.jpg'
+  // },
+];
 export const slitters = [
   {
     id: 0,

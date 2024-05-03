@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .iframeWrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.iframeWrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+} */

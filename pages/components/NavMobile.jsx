@@ -23,6 +23,9 @@ export default function Nav({ setNavMobile }) {
             <Scroll to="work" smooth={true} offset={-50}>
               <li className='text-white cursor-pointer'>事業内容</li>
             </Scroll>
+            <Scroll to="movie" smooth={true} offset={-50}>
+              <li className='text-white cursor-pointer'>動画</li>
+            </Scroll>
             <Scroll to="company" smooth={true} offset={-50}>
               <li className='text-white cursor-pointer'>会社概要</li>
             </Scroll>

@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import News from './components/News';
+import Movie from './components/Movie';
 
 export default function Index() {
   return (
@@ -24,6 +25,7 @@ export default function Index() {
         <News />
         <About />
         <Work />
+        <Movie />
         <Company />
         <Contact />
       </div>
