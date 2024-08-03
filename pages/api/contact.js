@@ -3,11 +3,11 @@ import nodemailer from "nodemailer";
 
 export default function sendGmail(req, res) {
   const transporter = nodemailer.createTransport({
-    host: process.env.GHOST,
-    port: process.env.GPORT,
+    host: process.env.NEXT_PUBLIC_GHOST,
+    port: process.env.NEXT_PUBLIC_GPORT,
     auth: {
-      user: process.env.GMAILUSER,
-      pass: process.env.GMAILPASSWORD,
+      user: process.env.NEXT_PUBLIC_GMAILUSER,
+      pass: process.env.NEXT_PUBLIC_GMAILPASSWORD,
     },
     tls: {
       rejectUnauthorized: false,
@@ -33,7 +33,7 @@ export default function sendGmail(req, res) {
 
   const toHostMailData = {
     from: req.body.email,
-    to: process.env.GMAILTO, // 送信先
+    to: process.env.NEXT_PUBLIC_GMAILTO, // 送信先
     subject: `【お問合せ】${req.body.name}様より`, // タイトル
     text: `${req.body.message} Send from ${req.body.email}`,
     html: `
